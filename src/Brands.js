@@ -10,7 +10,7 @@ class Brands extends React.Component{
       return (
 
       	<div className="row">
-      		<div className="col-3">
+      		<div className="col-6 col-md-4 col-lg-3">
 	          <div id='0' className="card shadow-sm">
 	            <div className="card-body">
 	              <div className="list-group">

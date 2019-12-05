@@ -88,11 +88,34 @@ input.form-control,input.form-control:focus {
 }
 
 .pill-transparent{
-	width: 80%;
+	width: 90%;
 	padding: 5%;
 	background-color: transparent;
 	border: 1px solid #ced4da;
 	font-size: 1rem;
 	font-weight: 500;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/**
+ * Responsiveness ============================================================================================================
+*/
+
+@media (max-width: 510px){
+	.col-6 {
+	    flex: none;
+	    max-width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+
+	.brands-text {
+    	margin-left: 0%; 
+	}
+
+	.input-group {
+    	width: 95% !important;
+    	margin-top: 10px;
+	}
 }

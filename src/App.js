@@ -27,10 +27,10 @@ class App extends React.Component{
             <main>
                 <div className="container-fluid search-content">
                   <div className="row">
-                    <div className="col-3 d-flex align-items-center">
+                    <div className="col-md-3 d-flex align-items-center">
                       <span className="brands-text">Your brands <i className="fa fa-angle-up" style={{color:'#A5A6A8'}}></i></span>
                     </div>
-                    <div className="col-9 d-flex align-items-center">
+                    <div className="col-md-9 d-flex align-items-center">
                       <Search clientsData={this.props.clients} />
                     </div>
                   </div>
